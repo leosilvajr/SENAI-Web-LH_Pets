@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leonardo\\Downloads\\Projeto_Web-Lh_Pets_Alunos\\Projeto_Web-Lh_Pets_Alunos.csproj": {}
+    "C:\\Git\\SENAI-Web-LH_Pets\\Projeto_Web-Lh_Pets_Alunos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leonardo\\Downloads\\Projeto_Web-Lh_Pets_Alunos\\Projeto_Web-Lh_Pets_Alunos.csproj": {
+    "C:\\Git\\SENAI-Web-LH_Pets\\Projeto_Web-Lh_Pets_Alunos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leonardo\\Downloads\\Projeto_Web-Lh_Pets_Alunos\\Projeto_Web-Lh_Pets_Alunos.csproj",
+        "projectUniqueName": "C:\\Git\\SENAI-Web-LH_Pets\\Projeto_Web-Lh_Pets_Alunos.csproj",
         "projectName": "Projeto_Web-Lh_Pets_Alunos",
-        "projectPath": "C:\\Users\\Leonardo\\Downloads\\Projeto_Web-Lh_Pets_Alunos\\Projeto_Web-Lh_Pets_Alunos.csproj",
+        "projectPath": "C:\\Git\\SENAI-Web-LH_Pets\\Projeto_Web-Lh_Pets_Alunos.csproj",
         "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leonardo\\Downloads\\Projeto_Web-Lh_Pets_Alunos\\obj\\",
+        "outputPath": "C:\\Git\\SENAI-Web-LH_Pets\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

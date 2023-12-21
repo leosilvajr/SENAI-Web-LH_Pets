@@ -15,14 +15,12 @@ namespace Projeto_Web_Lh_Pets_versão_1
 	{
 	 	try
                 {
-                    SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder(
-                    "User ID=LEO;Password=1994;" +
-                    "Server=localhost\\SQLEXPRESS;" +
-                    "Database=vendas;" +
-                    "Trusted_Connection=False;"
-                    );
+                SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+                builder.DataSource = "LEO"; // Nome do servidor
+                builder.InitialCatalog = "vendas"; // Nome do banco de dados que você deseja acessar
+                builder.IntegratedSecurity = true; // 
 
-                    using (SqlConnection conexao = new SqlConnection(builder.ConnectionString))
+                using (SqlConnection conexao = new SqlConnection(builder.ConnectionString))
                     {
                         String sql = "SELECT * FROM tblclientes";
                         using (SqlCommand comando = new SqlCommand(sql, conexao ))
